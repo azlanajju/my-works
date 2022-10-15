@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  background-image:linear-gradient(125deg, #6F7AEC,#CDCED9,#90DF98) ;
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+
+.oops{
+  margin-top: 30%;
+  background: none;
+  color: #333;
+  font-weight: 1000;
+ font-size: 25px;
+  text-align: center;
+  
+}
+
+.ops{
+  margin-top: 5%;
+  background: none;
+  color: #333;
+ 
+ font-size: 15px;
+  text-align: center;
+  
+}
+.error{
+  position: relative;
+  animation-delay: 0.0001s;
+  animation: anime  8s  infinite;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 200px;
+  font-weight: 1000;
+ color:blue;
+  text-align:center;
+ 
+ 
+} 
+@keyframes anime{ /*
+  0%{
+    font-size: 0px;
+  }
+  25%{
+    font-size: 150px;
+  }  */
+  50%{
+    color:red;
+  } 
+  
+  50%{
+    color:white;
+  }
+  75%{
+    color: rebeccapurple;
+  }
+  100%{
+    color:blue;
+  } 
+ 
+  }
+.try{
+  
+  text-align: center;
+  
+  justify-content: center;
+  flex:wrap;
+  display: flex;
+}
+.try a{
+  text-decoration: none;
+  background: orange;
+  padding:5px  9px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  
+}
+
+  </style>
+  
+</head>
+
+<body>
+  <div class="oops">
+ <p>Oops! page not found</p>
+ </div>
+ <div class="error">
+   
+ 
+ <p>404</p>
+ 
+ 
+ </div>
+ <div class="ops">
+   <p>can't find the page you are looking for</p>
+ </div>
+ <div class="try">
+   <a href="Back to Home">back to Home</a>
+ </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
